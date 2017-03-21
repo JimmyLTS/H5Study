@@ -22,7 +22,31 @@ body {background:#fff url(../img/background.png) repeat-x;}
 
 /*top_bar*/
 .top_bar {float: right;}
-.top_bar li {float: left; height: 30px; font-size: 13px; line-height: 30px; color: #fff; font-weight: bold; padding: 0 38px;}
-.top_bar .phone {background: url(../img/top_menu.png) no-repeat 8px -16px;}
-.top_bar .help {background: url(../img/top_menu.png) no-repeat 0 -46px;}
-.top_bar a:hover {color: #c6d;}
+.top_bar li {float: left; height: 30px; font-size: 13px; line-height: 30px; color: #fff; font-weight: bold;}
+.top_bar .phone {background: url(../img/top_menu.png) no-repeat 10px -16px; padding: 0 38px;}
+.top_bar .help {background: url(../img/top_menu.png) no-repeat 0 -46px; padding: 0 38px;}
+.top_bar a {color: white;}
+.top_bar .help a:hover {color: #2ad;}
+.top_bar .flag1 {margin-right: 14px;}
+
+#header {width: 960px; height: 100px; margin: 0 auto; background: url(../img/header_background.png) no-repeat center 0; position: relative;}
+#package {width: 260px; height: 100px; background: url(../img/header_left.png) no-repeat; position: relative;}
+#package p {color: #f7f7f7; font: arial 20px; padding: 30px 0 0 84px;}
+#package a {display: block; width: 114px; height: 23px; font: 15px bold;text-decoration: none; text-align: center; line-height: 23px; color: #ffc200; background: url(../img/header_left.png) no-repeat 0 -100px; position: absolute; top: 63px; left: 100px;}
+#package a:hover {color: #ffdd72;}
+#header h1 {width: 236px; position: absolute; top: 0; left: 50%; margin-left: -118px;}
+.search {width: 292px; height: 31px; background: url(../img/header_search.png) no-repeat; position: absolute;}
+.search .text {position: absolute; left: 20px; top: 0; width: 230px; height: 30px; background: none; border: none; font-size: 13px; flood-color: #666; outline: none;}
+.search .button {position: absolute; top: 0; right: 0; width: 42px; height: 30px; background: none; border: none;}
+#header .search {right: 0; top: 33px;}
+
+#navi {width: 960px; height: 36px; margin: 0 auto; padding-top: 8px;}
+#navi li {float: left; height: 28px; margin: 0 10px;}
+#navi a {float: left; height: 28px; text-decoration: none; color: #fff; font-size: 11px; font-family: arial; line-height: 28px;}
+#navi strong {float: left; height: 28px; font-weight: normal;}
+#navi span {float: left; height: 28px; padding: 0 16px;}
+#navi .active {margin-left: 25px;}
+#navi .nav_last {margin-right: 0;}
+#navi a:hover, #navi .active a {background: url(../img/nav_active.png) repeat-x 0 -56px;}
+#navi a:hover strong, #navi .active strong {background: url(../img/nav_active.png) no-repeat;}
+#navi a:hover span, #navi .active span {background: url(../img/nav_active.png) no-repeat right -28px;}
